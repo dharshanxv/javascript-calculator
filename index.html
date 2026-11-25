@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calc">
+    <h1>Smart Calc</h1>
+    <div class="screen">
+      <div id="expr"></div>
+      <div id="result">0</div>
+    </div>
+    <div class="keys">
+      <button class="fn" data-key="C">C</button>
+      <button class="fn" data-key="DEL">DEL</button>
+      <button class="op" data-key="÷">÷</button>
+      <button class="op" data-key="×">×</button>
+
+      <button data-key="7">7</button>
+      <button data-key="8">8</button>
+      <button data-key="9">9</button>
+      <button class="op" data-key="−">−</button>
+
+      <button data-key="4">4</button>
+      <button data-key="5">5</button>
+      <button data-key="6">6</button>
+      <button class="op" data-key="+">+</button>
+
+      <button data-key="1">1</button>
+      <button data-key="2">2</button>
+      <button data-key="3">3</button>
+      <button class="eq" data-key="=">=</button>
+
+      <button class="zero" data-key="0">0</button>
+      <button data-key=".">.</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
